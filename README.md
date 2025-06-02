@@ -36,8 +36,9 @@ source venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
-Configure the bot:
+```
 
+Configure the bot:
 
 
 4. Edit your environment variables or config to include your Telegram Bot Token.
@@ -46,7 +47,7 @@ Run the bot manually:
 
 ```bash
 python bot.py
-
+```
 4.1. Or set it up as a systemd service (optional for server use).
 
 Example in Action
