@@ -19,7 +19,7 @@ This is a Telegram bot that scrapes [ss.com](https://ss.com) for classified ads 
 
 1. **Clone the repository:**
 
-```bash
+bash
 git clone https://github.com/RoSciPer/Scraping.git
 cd Scraping
 
