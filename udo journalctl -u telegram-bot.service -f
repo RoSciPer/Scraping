@@ -1,0 +1,13 @@
+[0;1;32m●[0m telegram-bot.service - Telegram Bot
+     Loaded: loaded (]8;;file://ubuntu-4gb-hel1-1/etc/systemd/system/telegram-bot.service/etc/systemd/system/telegram-bot.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Wed 2025-05-14 12:35:27 UTC; 8s ago
+   Main PID: 12133 (python)
+      Tasks: 5 (limit: 4434)
+     Memory: 25.8M (peak: 25.9M)
+        CPU: 416ms
+     CGroup: /system.slice/telegram-bot.service
+             └─[0;38;5;245m12133 /root/telegram-sstrack/venv/bin/python /root/telegram-sstrack/bot.py[0m
+
+May 14 12:35:27 ubuntu-4gb-hel1-1 systemd[1]: Started telegram-bot.service - Telegram Bot.
+May 14 12:35:27 ubuntu-4gb-hel1-1 python[12133]: /root/telegram-sstrack/bot.py:201: DeprecationWarning: The default datetime adapter is deprecated as of Python 3.12; see the sqlite3 documentation for suggested replacement recipes
+May 14 12:35:27 ubuntu-4gb-hel1-1 python[12133]:   cursor.execute("UPDATE searches SET last_checked = ? WHERE search_id = ?", (datetime.now(), search_id))
