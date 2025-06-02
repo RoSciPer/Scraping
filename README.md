@@ -19,14 +19,14 @@ This is a Telegram bot that scrapes [ss.com](https://ss.com) for classified ads 
 
 1. **Clone the repository:**
 
-bash
+```bash
 git clone https://github.com/RoSciPer/Scraping.git
 cd Scraping
 
 
 2. Create and activate a virtual environment:
 
-bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
 
@@ -34,7 +34,7 @@ source venv/bin/activate
 
 3. Install dependencies:
 
-bash
+```bash
 pip install -r requirements.txt
 Configure the bot:
 
@@ -44,7 +44,7 @@ Configure the bot:
 
 Run the bot manually:
 
-bash
+```bash
 python bot.py
 
 4.1. Or set it up as a systemd service (optional for server use).
